@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 class ViewController: UIViewController { // Declaracion de los objetos que habra dentro de nustra app
     @IBOutlet weak var boton0: UIButton!
     @IBOutlet weak var boton1: UIButton!
@@ -50,7 +49,6 @@ class ViewController: UIViewController { // Declaracion de los objetos que habra
             sender.setImage(images[sender.tag], for: UIControl.State.normal)
         }
     }
-    
     @objc func timelbl(){ // declaracion del objeto temporizador
         if cuentaatras == 0 { // esto hace que cuando llegue a cero las imagenes cambiaran de posicion si se cumple
             changepositionimage() // se hace la llamada a la accion de cambio de imagen
@@ -60,7 +58,6 @@ class ViewController: UIViewController { // Declaracion de los objetos que habra
             lbltime.text = "Time : \(cuentaatras)"
             } // Esto indica que ira de 1 en 1 la cuenta atras
     }
-    
     func checkimages() { // Esta funcion hara que se miren y las imagenes para ver si entan en su posición correcta
         var countImages = 0
         for i in 0...8 {
