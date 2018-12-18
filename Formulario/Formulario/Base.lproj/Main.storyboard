@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Formulario" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="20" minValue="0.0" maxValue="150" translatesAutoresizingMaskIntoConstraints="NO" id="oah-GL-xF7">
+                                <rect key="frame" x="48" y="401" width="318" height="31"/>
+                                <connections>
+                                    <action selector="edadCambiada:" destination="BYZ-38-t0r" eventType="valueChanged" id="mRb-Gy-R1G"/>
+                                </connections>
+                            </slider>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xxj-bi-aVb">
+                                <rect key="frame" x="50" y="535" width="51" height="31"/>
+                                <connections>
+                                    <action selector="estadoCivilCambiado:" destination="BYZ-38-t0r" eventType="valueChanged" id="BIG-et-yg6"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Casado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="108-tn-Y4p">
+                                <rect key="frame" x="149" y="540" width="58" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zcw-ev-9we">
+                                <rect key="frame" x="50" y="467" width="314" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZm-eU-A2b">
+                                <rect key="frame" x="50" y="611" width="314" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.10985147112332161" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Guardar">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="guardar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="11e-XW-16S"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P8w-o3-gJg">
+                                <rect key="frame" x="97" y="353" width="220" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.88411737553043457" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="nombreCambiado:" destination="BYZ-38-t0r" eventType="editingChanged" id="UW4-2O-P8Y"/>
+                                </connections>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bandera-francia-de-vichy" translatesAutoresizingMaskIntoConstraints="NO" id="P65-Qe-GOP">
+                                <rect key="frame" x="50" y="20" width="314" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="PYe-co-gD5"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1200px-Flag_of_Italy_(1861-1946)_crowned.svg" translatesAutoresizingMaskIntoConstraints="NO" id="5zb-gE-9UD">
+                                <rect key="frame" x="50" y="171" width="314" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xxj-bi-aVb" firstAttribute="top" secondItem="Zcw-ev-9we" secondAttribute="bottom" constant="47" id="0UE-4f-Tbt"/>
+                            <constraint firstItem="108-tn-Y4p" firstAttribute="top" secondItem="Zcw-ev-9we" secondAttribute="bottom" constant="52" id="0dA-6s-RzP"/>
+                            <constraint firstItem="P65-Qe-GOP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="2xh-4P-nvI"/>
+                            <constraint firstItem="Zcw-ev-9we" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="53f-Xh-chn"/>
+                            <constraint firstItem="gZm-eU-A2b" firstAttribute="top" secondItem="xxj-bi-aVb" secondAttribute="bottom" constant="45" id="54y-wr-tCu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P65-Qe-GOP" secondAttribute="trailing" constant="50" id="87O-ln-0eK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P8w-o3-gJg" secondAttribute="trailing" constant="97" id="8jQ-xr-CVL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zcw-ev-9we" secondAttribute="trailing" constant="50" id="CVP-bv-tIG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P65-Qe-GOP" secondAttribute="trailing" constant="50" id="Cxu-h3-aGY"/>
+                            <constraint firstItem="Zcw-ev-9we" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="H5f-CX-vea"/>
+                            <constraint firstItem="Zcw-ev-9we" firstAttribute="top" secondItem="oah-GL-xF7" secondAttribute="bottom" constant="36" id="IG5-YH-dOj"/>
+                            <constraint firstItem="P8w-o3-gJg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="Itv-C0-8wl"/>
+                            <constraint firstItem="5zb-gE-9UD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="JWG-se-YH6"/>
+                            <constraint firstItem="P8w-o3-gJg" firstAttribute="top" secondItem="5zb-gE-9UD" secondAttribute="bottom" constant="54" id="OxV-Ii-GXV"/>
+                            <constraint firstItem="5zb-gE-9UD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="PfD-b6-2Hb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zcw-ev-9we" secondAttribute="trailing" constant="50" id="QlU-jb-SMF"/>
+                            <constraint firstItem="oah-GL-xF7" firstAttribute="top" secondItem="P8w-o3-gJg" secondAttribute="bottom" constant="18" id="UEp-hG-wyO"/>
+                            <constraint firstItem="108-tn-Y4p" firstAttribute="leading" secondItem="xxj-bi-aVb" secondAttribute="trailing" constant="50" id="UkJ-LL-nBk"/>
+                            <constraint firstItem="P8w-o3-gJg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="V5Z-p6-nk3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gZm-eU-A2b" secondAttribute="trailing" constant="50" id="ZUT-rJ-ULN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5zb-gE-9UD" secondAttribute="trailing" constant="50" id="avC-QR-h41"/>
+                            <constraint firstItem="P65-Qe-GOP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="bSt-oA-W7A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oah-GL-xF7" secondAttribute="trailing" constant="50" id="dZT-Wn-GPf"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="108-tn-Y4p" secondAttribute="trailing" constant="20" symbolic="YES" id="dyI-rB-MfR"/>
+                            <constraint firstItem="Zcw-ev-9we" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="eR8-Fo-FJh"/>
+                            <constraint firstItem="xxj-bi-aVb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="eVV-xE-MLo"/>
+                            <constraint firstItem="5zb-gE-9UD" firstAttribute="top" secondItem="P65-Qe-GOP" secondAttribute="bottom" constant="23" id="fjt-VO-sak"/>
+                            <constraint firstItem="P65-Qe-GOP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="irf-04-c1l"/>
+                            <constraint firstItem="oah-GL-xF7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="mf2-h9-vLT"/>
+                            <constraint firstItem="gZm-eU-A2b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="qQf-gU-dez"/>
+                            <constraint firstItem="108-tn-Y4p" firstAttribute="leading" secondItem="xxj-bi-aVb" secondAttribute="trailing" constant="50" id="t5H-au-AOe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5zb-gE-9UD" secondAttribute="trailing" constant="50" id="xsv-96-27o"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="edad" destination="oah-GL-xF7" id="Cto-eW-gco"/>
+                        <outlet property="edadNumero" destination="Zcw-ev-9we" id="Dwq-vn-cba"/>
+                        <outlet property="estadoCivil" destination="xxj-bi-aVb" id="Rqd-41-ESc"/>
+                        <outlet property="estadoCivilLabel" destination="108-tn-Y4p" id="naZ-Vi-1PV"/>
+                        <outlet property="guardarButton" destination="gZm-eU-A2b" id="vpN-yy-YnH"/>
+                        <outlet property="nombre" destination="P8w-o3-gJg" id="ayg-f8-Rkg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="115.94202898550725" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1200px-Flag_of_Italy_(1861-1946)_crowned.svg" width="1200" height="800"/>
+        <image name="bandera-francia-de-vichy" width="324" height="216"/>
+    </resources>
+</document>

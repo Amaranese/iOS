@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CambiodeImagenes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="23c-K3-unV">
+                                <rect key="frame" x="75" y="196" width="225" height="275.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aQ6-6M-L35">
+                                        <rect key="frame" x="0.0" y="0.0" width="225" height="75"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaC-Il-CjB">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="75" id="54N-4l-cwl"/>
+                                                    <constraint firstAttribute="width" constant="75" id="BMe-ac-G90"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="Ilb-Bg-9IF"/>
+                                                    <constraint firstAttribute="height" constant="75" id="hfd-nT-HvG"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="78"/>
+                                                <state key="normal" title="Button" image="440px-Bundesarchiv_Bild_183-71043-0003,_Wladimir_Iljitsch_Lenin"/>
+                                                <connections>
+                                                    <action selector="cambio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="beW-yp-bBy"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3me-34-bFv">
+                                                <rect key="frame" x="75" y="0.0" width="75" height="75"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="Fmc-1m-JiG"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="Pdk-27-cOH"/>
+                                                    <constraint firstAttribute="width" constant="75" id="TQk-q6-fN0"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="Georgy_Malenkov_1964"/>
+                                                <connections>
+                                                    <action selector="cambio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zv8-Xu-ENx"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ttf-f4-490">
+                                                <rect key="frame" x="150" y="0.0" width="75" height="75"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="FRr-dY-s35"/>
+                                                    <constraint firstAttribute="height" constant="75" id="VXj-Hy-Gfw"/>
+                                                    <constraint firstAttribute="width" constant="75" id="x5A-YU-IGz"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="Vyacheslav_Molotov_Anefo2"/>
+                                                <connections>
+                                                    <action selector="cambio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xFl-kA-0Jz"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="KaC-Il-CjB" secondAttribute="bottom" id="58P-NZ-6hw"/>
+                                            <constraint firstItem="Ttf-f4-490" firstAttribute="leading" secondItem="3me-34-bFv" secondAttribute="trailing" id="9FA-eE-lmc"/>
+                                            <constraint firstItem="KaC-Il-CjB" firstAttribute="leading" secondItem="aQ6-6M-L35" secondAttribute="leading" id="PnW-ed-qbL"/>
+                                            <constraint firstItem="KaC-Il-CjB" firstAttribute="top" secondItem="aQ6-6M-L35" secondAttribute="top" id="TR1-d3-LkM"/>
+                                            <constraint firstItem="3me-34-bFv" firstAttribute="leading" secondItem="KaC-Il-CjB" secondAttribute="trailing" id="g3n-vR-gkF"/>
+                                            <constraint firstItem="3me-34-bFv" firstAttribute="leading" secondItem="KaC-Il-CjB" secondAttribute="trailing" id="nGm-EY-xZr"/>
+                                            <constraint firstAttribute="bottom" secondItem="3me-34-bFv" secondAttribute="bottom" id="smO-zj-oYR"/>
+                                            <constraint firstItem="3me-34-bFv" firstAttribute="top" secondItem="aQ6-6M-L35" secondAttribute="top" id="uo2-ni-ovM"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UwV-2D-lG1">
+                                        <rect key="frame" x="0.0" y="75" width="225" height="75"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SE1-4h-lCN">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="1zS-g7-3OL"/>
+                                                    <constraint firstAttribute="width" constant="75" id="Tl4-7P-9QZ"/>
+                                                    <constraint firstAttribute="height" constant="75" id="os8-6q-JyF"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="75" id="sMl-7j-ldS"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="500px-Bundesarchiv_Bild_183-29921-0001,_Bulganin,_Nikolai_Alexandrowitsch"/>
+                                                <connections>
+                                                    <action selector="cambio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AsQ-Gb-bmU"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3eo-cC-Zt1">
+                                                <rect key="frame" x="75" y="0.0" width="75" height="75"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="QN8-5t-LYA"/>
+                                                    <constraint firstAttribute="width" constant="75" id="Xgs-F3-F0h"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="fkh-rV-aOT"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="500px-Alexander_Kerensky_LOC_24416"/>
+                                                <connections>
+                                                    <action selector="cambio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cn5-Pq-xCD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VwH-bQ-gCP">
+                                                <rect key="frame" x="150" y="0.0" width="75" height="75"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="BsY-lW-ZFr"/>
+                                                    <constraint firstAttribute="height" constant="75" id="hR3-Bb-Wmw"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="440px-Bundesarchiv_Bild_183-71043-0003,_Wladimir_Iljitsch_Lenin"/>
+                                                <connections>
+                                                    <action selector="cambio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x3q-bw-TnQ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="SE1-4h-lCN" secondAttribute="bottom" id="2zo-8a-3Ji"/>
+                                            <constraint firstAttribute="bottom" secondItem="3eo-cC-Zt1" secondAttribute="bottom" id="3c4-Xf-E7g"/>
+                                            <constraint firstAttribute="bottom" secondItem="VwH-bQ-gCP" secondAttribute="bottom" id="7tj-lz-D7u"/>
+                                            <constraint firstItem="3eo-cC-Zt1" firstAttribute="leading" secondItem="SE1-4h-lCN" secondAttribute="trailing" id="9bS-hE-DRU"/>
+                                            <constraint firstItem="VwH-bQ-gCP" firstAttribute="top" secondItem="UwV-2D-lG1" secondAttribute="top" id="AQf-bv-pde"/>
+                                            <constraint firstItem="3eo-cC-Zt1" firstAttribute="leading" secondItem="SE1-4h-lCN" secondAttribute="trailing" id="Eiv-Yd-HmE"/>
+                                            <constraint firstItem="SE1-4h-lCN" firstAttribute="leading" secondItem="UwV-2D-lG1" secondAttribute="leading" id="IeZ-Oj-ByN"/>
+                                            <constraint firstItem="VwH-bQ-gCP" firstAttribute="leading" secondItem="3eo-cC-Zt1" secondAttribute="trailing" id="JoQ-aK-7KC"/>
+                                            <constraint firstAttribute="trailing" secondItem="VwH-bQ-gCP" secondAttribute="trailing" id="UGr-Tk-UmQ"/>
+                                            <constraint firstItem="3eo-cC-Zt1" firstAttribute="top" secondItem="UwV-2D-lG1" secondAttribute="top" id="Ven-92-Y3M"/>
+                                            <constraint firstItem="VwH-bQ-gCP" firstAttribute="leading" secondItem="3eo-cC-Zt1" secondAttribute="trailing" id="XOR-Fr-oIz"/>
+                                            <constraint firstItem="SE1-4h-lCN" firstAttribute="top" secondItem="UwV-2D-lG1" secondAttribute="top" id="zVo-Zb-VNa"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAb-fQ-V7K">
+                                        <rect key="frame" x="0.0" y="150" width="225" height="75"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUB-Fg-y8k">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="64V-EQ-Ydt"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="75" id="A9o-fX-GIi"/>
+                                                    <constraint firstAttribute="height" constant="75" id="NSk-sH-nxR"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="hIj-SX-FeZ"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="Vyacheslav_Molotov_Anefo2"/>
+                                                <connections>
+                                                    <action selector="cambio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gnY-D7-G1u"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUc-yo-ErY">
+                                                <rect key="frame" x="75" y="0.0" width="75" height="75"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="Eeg-Dc-W2i"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="ZDT-Qa-Gfg"/>
+                                                    <constraint firstAttribute="height" constant="75" id="m0h-Vz-25l"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="Georgy_Malenkov_1964"/>
+                                                <connections>
+                                                    <action selector="cambio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xe5-S7-LSC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2L3-wz-RNZ">
+                                                <rect key="frame" x="150" y="0.0" width="75" height="75"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="gpJ-Wp-BbV"/>
+                                                    <constraint firstAttribute="height" constant="75" id="kUN-T1-W8M"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="440px-Bundesarchiv_Bild_183-71043-0003,_Wladimir_Iljitsch_Lenin"/>
+                                                <connections>
+                                                    <action selector="cambio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SQq-1z-zaI"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="2L3-wz-RNZ" secondAttribute="trailing" id="Iba-of-d6c"/>
+                                            <constraint firstItem="2L3-wz-RNZ" firstAttribute="leading" secondItem="nUc-yo-ErY" secondAttribute="trailing" id="gdW-bH-zZe"/>
+                                            <constraint firstItem="2L3-wz-RNZ" firstAttribute="top" secondItem="bAb-fQ-V7K" secondAttribute="top" id="o1Q-du-hAw"/>
+                                            <constraint firstAttribute="bottom" secondItem="2L3-wz-RNZ" secondAttribute="bottom" id="sXe-eF-xoY"/>
+                                        </constraints>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time: 30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sqy-Uc-AQt">
+                                        <rect key="frame" x="0.0" y="225" width="225" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ce3-NJ-yIa">
+                                        <rect key="frame" x="0.0" y="245.5" width="225" height="30"/>
+                                        <state key="normal" title="Start"/>
+                                        <connections>
+                                            <action selector="time:" destination="BYZ-38-t0r" eventType="touchUpInside" id="waH-5k-DtE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Sqy-Uc-AQt" firstAttribute="top" secondItem="bAb-fQ-V7K" secondAttribute="bottom" id="20n-gS-06s"/>
+                                    <constraint firstItem="aQ6-6M-L35" firstAttribute="leading" secondItem="23c-K3-unV" secondAttribute="leading" id="60W-A6-pnz"/>
+                                    <constraint firstAttribute="trailing" secondItem="UwV-2D-lG1" secondAttribute="trailing" id="6ua-qc-tFI"/>
+                                    <constraint firstItem="ce3-NJ-yIa" firstAttribute="top" secondItem="Sqy-Uc-AQt" secondAttribute="bottom" id="AgX-De-pgI"/>
+                                    <constraint firstItem="UwV-2D-lG1" firstAttribute="leading" secondItem="23c-K3-unV" secondAttribute="leading" id="CB0-R3-O5Z"/>
+                                    <constraint firstAttribute="bottom" secondItem="ce3-NJ-yIa" secondAttribute="bottom" id="Cl0-Ji-pBd"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sqy-Uc-AQt" secondAttribute="trailing" id="DFX-x2-sf2"/>
+                                    <constraint firstItem="bAb-fQ-V7K" firstAttribute="top" secondItem="UwV-2D-lG1" secondAttribute="bottom" id="Heq-LU-yMh"/>
+                                    <constraint firstItem="ce3-NJ-yIa" firstAttribute="top" secondItem="Sqy-Uc-AQt" secondAttribute="bottom" id="KWR-8y-Abr"/>
+                                    <constraint firstItem="Sqy-Uc-AQt" firstAttribute="top" secondItem="bAb-fQ-V7K" secondAttribute="bottom" id="Pjz-Tf-oo8"/>
+                                    <constraint firstItem="Sqy-Uc-AQt" firstAttribute="leading" secondItem="23c-K3-unV" secondAttribute="leading" id="SVS-dg-DN9"/>
+                                    <constraint firstItem="aQ6-6M-L35" firstAttribute="top" secondItem="23c-K3-unV" secondAttribute="top" id="UCF-P6-i3N"/>
+                                    <constraint firstItem="UwV-2D-lG1" firstAttribute="top" secondItem="aQ6-6M-L35" secondAttribute="bottom" id="VWb-0Y-J9H"/>
+                                    <constraint firstItem="ce3-NJ-yIa" firstAttribute="leading" secondItem="23c-K3-unV" secondAttribute="leading" id="s60-0q-UAD"/>
+                                    <constraint firstAttribute="trailing" secondItem="aQ6-6M-L35" secondAttribute="trailing" id="sZI-iJ-AzY"/>
+                                    <constraint firstAttribute="trailing" secondItem="ce3-NJ-yIa" secondAttribute="trailing" id="sbC-Vr-Rmh"/>
+                                    <constraint firstAttribute="trailing" secondItem="bAb-fQ-V7K" secondAttribute="trailing" id="v59-jf-5rS"/>
+                                    <constraint firstItem="bAb-fQ-V7K" firstAttribute="leading" secondItem="23c-K3-unV" secondAttribute="leading" id="z96-Xd-U45"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="23c-K3-unV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="7cK-zM-263"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="23c-K3-unV" secondAttribute="bottom" constant="195.5" id="7uw-jq-8Iz"/>
+                            <constraint firstItem="23c-K3-unV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="176" id="Zwv-qL-BPe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="23c-K3-unV" secondAttribute="trailing" constant="75" id="qvu-CC-5GA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="boton0" destination="KaC-Il-CjB" id="EIe-DG-rg8"/>
+                        <outlet property="boton1" destination="3me-34-bFv" id="EZW-iB-kCO"/>
+                        <outlet property="boton2" destination="Ttf-f4-490" id="E3m-nQ-oD8"/>
+                        <outlet property="boton3" destination="SE1-4h-lCN" id="1yg-Ns-ynE"/>
+                        <outlet property="boton4" destination="3eo-cC-Zt1" id="hh0-gb-OQS"/>
+                        <outlet property="boton5" destination="VwH-bQ-gCP" id="ceg-B7-3hj"/>
+                        <outlet property="boton6" destination="QUB-Fg-y8k" id="j5N-jp-6oi"/>
+                        <outlet property="boton7" destination="nUc-yo-ErY" id="PLe-JP-yDC"/>
+                        <outlet property="boton8" destination="2L3-wz-RNZ" id="L02-Y9-aQv"/>
+                        <outlet property="btnstart" destination="ce3-NJ-yIa" id="Njn-Xr-mma"/>
+                        <outlet property="lbltime" destination="Sqy-Uc-AQt" id="OZL-wd-FLF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="440px-Bundesarchiv_Bild_183-71043-0003,_Wladimir_Iljitsch_Lenin" width="440" height="685"/>
+        <image name="500px-Alexander_Kerensky_LOC_24416" width="45" height="67.139999389648438"/>
+        <image name="500px-Bundesarchiv_Bild_183-29921-0001,_Bulganin,_Nikolai_Alexandrowitsch" width="720" height="1033.9200439453125"/>
+        <image name="Georgy_Malenkov_1964" width="440" height="616"/>
+        <image name="Vyacheslav_Molotov_Anefo2" width="440" height="608"/>
+    </resources>
+</document>

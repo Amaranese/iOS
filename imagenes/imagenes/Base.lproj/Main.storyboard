@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="imagenes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5a57c62d4af99" translatesAutoresizingMaskIntoConstraints="NO" id="EMr-t7-OC7">
+                                <rect key="frame" x="225" y="30" width="134" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="macron-1" translatesAutoresizingMaskIntoConstraints="NO" id="4y7-dw-Nyy">
+                                <rect key="frame" x="16" y="177" width="134" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="134" id="2iK-TN-FCy"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Petró_Poroshenko" translatesAutoresizingMaskIntoConstraints="NO" id="MWT-Dx-oqf">
+                                <rect key="frame" x="225" y="177" width="134" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lead_720_405" translatesAutoresizingMaskIntoConstraints="NO" id="Q4T-0j-CFi">
+                                <rect key="frame" x="16" y="322" width="134" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lukasjenko" translatesAutoresizingMaskIntoConstraints="NO" id="FaW-zW-pP8">
+                                <rect key="frame" x="225" y="322" width="134" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Noticia-173028-diego-armando-maradona-intimidades" translatesAutoresizingMaskIntoConstraints="NO" id="kb3-53-LUn">
+                                <rect key="frame" x="16" y="477" width="134" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rajoy-idea_e4bcefd6_1098x676" translatesAutoresizingMaskIntoConstraints="NO" id="0cr-Kb-RIv">
+                                <rect key="frame" x="225" y="477" width="134" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1200px-Flickr_-_Saeima_-_10.Saeimas_deputāts_Raimonds_Vējonis" translatesAutoresizingMaskIntoConstraints="NO" id="QVG-Vq-VdZ">
+                                <rect key="frame" x="16" y="30" width="134" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYa-UV-jRd">
+                                <rect key="frame" x="16" y="617" width="343" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.12734011270000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FaW-zW-pP8" secondAttribute="trailing" constant="16" id="0Zj-Rh-TEx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MWT-Dx-oqf" secondAttribute="trailing" constant="16" id="1SX-KS-8wQ"/>
+                            <constraint firstItem="EMr-t7-OC7" firstAttribute="leading" secondItem="QVG-Vq-VdZ" secondAttribute="trailing" constant="75" id="2T6-Yl-2T1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SYa-UV-jRd" secondAttribute="trailing" constant="16" id="39U-A1-4C4"/>
+                            <constraint firstItem="FaW-zW-pP8" firstAttribute="leading" secondItem="MWT-Dx-oqf" secondAttribute="leading" id="5hV-TK-3Yj"/>
+                            <constraint firstItem="Q4T-0j-CFi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="DcA-Jy-eJQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MWT-Dx-oqf" secondAttribute="bottom" constant="362" id="Dt7-QL-yZI"/>
+                            <constraint firstItem="0cr-Kb-RIv" firstAttribute="leading" secondItem="kb3-53-LUn" secondAttribute="trailing" constant="75" id="EcY-CZ-vL0"/>
+                            <constraint firstItem="MWT-Dx-oqf" firstAttribute="leading" secondItem="EMr-t7-OC7" secondAttribute="leading" id="H8r-oA-sNv"/>
+                            <constraint firstItem="0cr-Kb-RIv" firstAttribute="leading" secondItem="FaW-zW-pP8" secondAttribute="leading" id="NDc-xY-zZY"/>
+                            <constraint firstItem="MWT-Dx-oqf" firstAttribute="leading" secondItem="4y7-dw-Nyy" secondAttribute="trailing" constant="75" id="NYF-uk-hdg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SYa-UV-jRd" secondAttribute="bottom" constant="20" id="Nqy-nR-KWT"/>
+                            <constraint firstItem="0cr-Kb-RIv" firstAttribute="top" secondItem="FaW-zW-pP8" secondAttribute="bottom" constant="27" id="OOJ-m4-iXD"/>
+                            <constraint firstItem="EMr-t7-OC7" firstAttribute="leading" secondItem="QVG-Vq-VdZ" secondAttribute="trailing" constant="75" id="OPf-Zl-KST"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0cr-Kb-RIv" secondAttribute="bottom" constant="62" id="OmU-ck-zDC"/>
+                            <constraint firstItem="MWT-Dx-oqf" firstAttribute="top" secondItem="EMr-t7-OC7" secondAttribute="bottom" constant="19" id="QZW-Hh-bcS"/>
+                            <constraint firstItem="EMr-t7-OC7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="RlB-iv-Dfx"/>
+                            <constraint firstItem="SYa-UV-jRd" firstAttribute="top" secondItem="kb3-53-LUn" secondAttribute="bottom" constant="12" id="SaO-dT-fpx"/>
+                            <constraint firstItem="MWT-Dx-oqf" firstAttribute="leading" secondItem="4y7-dw-Nyy" secondAttribute="trailing" constant="75" id="Sw5-IL-HG4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0cr-Kb-RIv" secondAttribute="trailing" constant="16" id="UUj-VJ-Ia7"/>
+                            <constraint firstItem="FaW-zW-pP8" firstAttribute="leading" secondItem="Q4T-0j-CFi" secondAttribute="trailing" constant="75" id="WUA-Eh-ZkR"/>
+                            <constraint firstItem="0cr-Kb-RIv" firstAttribute="leading" secondItem="kb3-53-LUn" secondAttribute="trailing" constant="75" id="Wzq-W6-tue"/>
+                            <constraint firstItem="SYa-UV-jRd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="X5q-cH-0jd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EMr-t7-OC7" secondAttribute="bottom" constant="509" id="Ylq-Fv-9h9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kb3-53-LUn" secondAttribute="bottom" constant="62" id="bNl-qF-7Ks"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EMr-t7-OC7" secondAttribute="trailing" constant="16" id="hRj-Hb-aLT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Q4T-0j-CFi" secondAttribute="bottom" constant="217" id="loD-h9-2QY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4y7-dw-Nyy" secondAttribute="bottom" constant="362" id="n0X-tE-abg"/>
+                            <constraint firstItem="Q4T-0j-CFi" firstAttribute="top" secondItem="4y7-dw-Nyy" secondAttribute="bottom" constant="17" id="q11-oe-KHr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FaW-zW-pP8" secondAttribute="bottom" constant="217" id="s63-Vx-eFH"/>
+                            <constraint firstItem="FaW-zW-pP8" firstAttribute="leading" secondItem="Q4T-0j-CFi" secondAttribute="trailing" constant="75" id="twz-Go-2NT"/>
+                            <constraint firstItem="kb3-53-LUn" firstAttribute="top" secondItem="Q4T-0j-CFi" secondAttribute="bottom" constant="27" id="uKQ-fm-Bll"/>
+                            <constraint firstItem="QVG-Vq-VdZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="vbA-3A-Fes"/>
+                            <constraint firstItem="FaW-zW-pP8" firstAttribute="top" secondItem="MWT-Dx-oqf" secondAttribute="bottom" constant="17" id="wEH-SK-MLZ"/>
+                            <constraint firstItem="QVG-Vq-VdZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="xWJ-Tk-0hN"/>
+                            <constraint firstItem="4y7-dw-Nyy" firstAttribute="top" secondItem="QVG-Vq-VdZ" secondAttribute="bottom" constant="19" id="xuf-qR-4Lp"/>
+                            <constraint firstItem="kb3-53-LUn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="y5t-dz-Hnj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QVG-Vq-VdZ" secondAttribute="bottom" constant="509" id="yZN-Jt-516"/>
+                            <constraint firstItem="4y7-dw-Nyy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="yq2-y9-Dma"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1200px-Flickr_-_Saeima_-_10.Saeimas_deputāts_Raimonds_Vējonis" width="1200" height="1805"/>
+        <image name="5a57c62d4af99" width="954" height="550"/>
+        <image name="Noticia-173028-diego-armando-maradona-intimidades" width="620" height="465"/>
+        <image name="Petró_Poroshenko" width="410" height="480"/>
+        <image name="lead_720_405" width="720" height="405"/>
+        <image name="lukasjenko" width="406" height="512"/>
+        <image name="macron-1" width="996" height="564"/>
+        <image name="rajoy-idea_e4bcefd6_1098x676" width="1098" height="676"/>
+    </resources>
+</document>
