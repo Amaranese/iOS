@@ -13,7 +13,7 @@ class Table: UITableViewController {
     
     var nameEvent = " "
     var codeValidation = " "
-    var priceEvent = " "
+    var priceEvent = 0 
     var imageEvent = #imageLiteral(resourceName: "220px-Theringpostere")
     
     override func viewDidLoad() {
@@ -31,7 +31,8 @@ class Table: UITableViewController {
             return entrada.count
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let celda = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! Celda
+        
+    let celda = tableView.dequeueReusableCell(withIdentifier: "Celda", for: indexPath) as! Celda
     celda.titulopelicula.text = entrada[indexPath.row].name
     celda.imagencelda.image = entrada[indexPath.row].image
     celda.validationcode = entrada[indexPath.row].validationcode

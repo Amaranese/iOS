@@ -115,9 +115,9 @@
 				2B35210221C130B20062A8D5 /* Entrada.swift */,
 				2B35210021C125690062A8D5 /* VistaEntradas.swift */,
 				2B1D893A21C4427A0092EF8D /* detailticket.swift */,
+				2B75096C21C95BC3001F6007 /* Celda.swift */,
 				2B1D893C21C452920092EF8D /* Table.swift */,
 				2B1D893E21C458E70092EF8D /* Datos.swift */,
-				2B75096C21C95BC3001F6007 /* Celda.swift */,
 				2BB1D11821B58EAC00633837 /* Main.storyboard */,
 				2BB1D11B21B58EAD00633837 /* Assets.xcassets */,
 				2BB1D12021B58EAD00633837 /* Info.plist */,
@@ -457,7 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KLBY2DFSR9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VentadeEntradas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,7 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KLBY2DFSR9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VentadeEntradas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

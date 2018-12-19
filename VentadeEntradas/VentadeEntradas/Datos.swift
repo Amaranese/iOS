@@ -68,7 +68,7 @@ func asociateimage() {
             i.image = eventImages[2]
             break
         case "hausu" :
-            i.image = eventImages[2]
+            i.image = eventImages[3]
             break
             
         default:

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+class ViewController: UIViewController,UIPickerViewDelegate,UIPickerViewDataSource {
     
     
     
@@ -21,7 +21,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
 
     
 var imageArray:[UIImage] = [#imageLiteral(resourceName: "220px-Theringpostere"), #imageLiteral(resourceName: "chicosdelmaiz"), #imageLiteral(resourceName: "elexorcista"), #imageLiteral(resourceName: "hausu")]
-var validationcode = ""
+var validationcode = " "
     
 let peliculas = ["The Ring ","Los chicos del Maiz","El Exorcista","Hausu"]
     
@@ -31,6 +31,7 @@ let peliculas = ["The Ring ","Los chicos del Maiz","El Exorcista","Hausu"]
         stepper.autorepeat = false
         stepper.maximumValue = 1000
         stepper.minimumValue = 0
+        
        self.pickerView.dataSource = self
         self.pickerView.delegate = self
         
@@ -75,7 +76,7 @@ let peliculas = ["The Ring ","Los chicos del Maiz","El Exorcista","Hausu"]
         saveData()
     }
     
-    func Stringr(size: UInt)->String{
+    func rString(size: UInt)->String{
         let words = "1234567890qQwWeErRtTyYuUiIoOpPaAsSdDfFgGhHjJkKlLzZxXcCvVbBnNmM"
         validationcode = ""
         
@@ -90,7 +91,7 @@ let peliculas = ["The Ring ","Los chicos del Maiz","El Exorcista","Hausu"]
     
     @IBAction func buytickets(_ sender: UIButton) {
         
-        Stringr(size: 12)
+       rString(size: 10)
         print(validationcode)
     }
     
