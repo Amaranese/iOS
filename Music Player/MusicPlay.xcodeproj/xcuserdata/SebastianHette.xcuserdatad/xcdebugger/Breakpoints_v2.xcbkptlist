@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicPlay/SecondViewController.swift"
+            timestampString = "507482280.596066"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicPlay.SecondViewController.__deallocating_deinit"
+                  moduleName = "MusicPlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SebastianHette/Desktop/Music%20Player/MusicPlay/SecondViewController.swift"
+                  timestampString = "507482280.647379"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicPlay.SecondViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MusicPlay.SecondViewController"
+                  moduleName = "MusicPlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SebastianHette/Desktop/Music%20Player/MusicPlay/SecondViewController.swift"
+                  timestampString = "507482280.658041"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicPlay.SecondViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MusicPlay.SecondViewController"
+                  moduleName = "MusicPlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SebastianHette/Desktop/Music%20Player/MusicPlay/SecondViewController.swift"
+                  timestampString = "507482280.66419"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicPlay.SecondViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MusicPlay.SecondViewController&gt;"
+                  moduleName = "MusicPlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SebastianHette/Desktop/Music%20Player/MusicPlay/SecondViewController.swift"
+                  timestampString = "507482280.668546"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicPlay.SecondViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MusicPlay.SecondViewController&gt;"
+                  moduleName = "MusicPlay"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SebastianHette/Desktop/Music%20Player/MusicPlay/SecondViewController.swift"
+                  timestampString = "507482280.67108"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
