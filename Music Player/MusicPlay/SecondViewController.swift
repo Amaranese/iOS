@@ -1,11 +1,3 @@
-//
-//  SecondViewController.swift
-//  MusicPlay
-//
-//  Created by Sebastian Hette on 26.01.2017.
-//  Copyright © 2017 MAGNUMIUM. All rights reserved.
-//
-
 import UIKit
 import AVFoundation
 
